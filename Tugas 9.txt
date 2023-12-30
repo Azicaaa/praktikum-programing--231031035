@@ -1,0 +1,17 @@
+bio_data = {"nama" : "Siti Nur Azizah Ibrahim",
+
+            "kelas" : "SI23-B",
+
+            "nim" : 231031035,
+            "asal" : "Parepare",
+            "tanggal" : "25-April-2005",
+            "agama" : "Islam",
+            "alamat" : "Jl. sulawesi",
+            }
+print("Nama Lengkap   :",bio_data["nama"])
+print("Kelas          :",bio_data["kelas"])
+print("NIM            :",bio_data["nim"])
+print("Tmpt tgl lahir :",bio_data["asal"],bio_data["tanggal"])
+#print("\nTipe data dari var bio_data : ",type(bio_data))
+print("agama           :",bio_data["agama"])
+print("alamat     :",bio_data["alamat"])
